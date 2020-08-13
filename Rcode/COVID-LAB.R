@@ -11,10 +11,8 @@ library(MASS)
 library(tidyr)
 
 # set working directory
-setwd('C:/Users/Jing Huang/Dropbox/000_Collaboration/00_CHOP_General/Covid/data_analysis/st_prediction')
-setwd('/Users/jing14/Dropbox/000_Collaboration/00_CHOP_General/Covid/data_analysis/st_prediction')
-# source R function
-source('./functions/covid-function.R')
+setwd('...')
+source('./covid-function.R')
 
 
 ## read case data
